@@ -187,7 +187,7 @@ with col2:
     ime_indeksa = st.text_input(
         "Enter Pinecone Index Name",
         value="",  # Remove default value
-        placeholder="e.g., ipma-awards, ipma-test",  # Add placeholder text
+        placeholder="e.g., test-index",  # Add placeholder text
         help="Enter the name of the Pinecone index where you want to store the data. The content will be indexed in the exact index name you provide.",
         key="index_name_input"
     )
