@@ -236,21 +236,14 @@ with col2:
 with st.sidebar:
     st.markdown("""
     ### About
-    This tool scrapes content from IPMA-related websites and optionally stores it in a vector database.
-    
-    ### Content Sources
-    - Certification Programs
-    - Special Interest Groups (SIG)
-    - Awards
-    - Events
-    - Partner Programs
-    - Youth Programs
+    This tool scrapes content from Universal related websites and optionally stores it in a vector database.
     
     ### Process
-    1. Select URL source (predefined or custom)
-    2. Click "Scrape Content" to fetch the content
-    3. Review the scraped content
-    4. Click "Index in Pinecone" to store in the database (optional)
+    1. Provide Pinecone API key
+    2. Provide URLs to scrape
+    3. Click "Scrape Content" to fetch the content
+    4. Review the scraped content
+    5. Click "Index in Pinecone" to store in the database
     """)
 
 #TEMPLATE DOKUMENTA
