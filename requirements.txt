@@ -1,0 +1,11 @@
+streamlit
+pinecone
+llama_index.vector_stores.pinecone
+llama_index.core
+llama_index.readers.web
+llama_index.embeddings.openai
+unstructured
+llama_index.embeddings.voyageai
+llama-index-readers-web
+firecrawl-py
+nltk
