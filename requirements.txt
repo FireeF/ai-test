@@ -9,3 +9,4 @@ llama_index.embeddings.voyageai
 llama-index-readers-web
 firecrawl-py
 nltk
+platformdirs
